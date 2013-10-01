@@ -1,0 +1,16 @@
+
+#!/bin/bash
+
+# Check if gedit is running
+if ps aux | grep "[s]erver" > /dev/null
+then
+
+echo "Running"
+
+else
+      /var/www/honeymap/server/server > /dev/null 2>&1 &
+fi
+
+
+
+
