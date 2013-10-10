@@ -1,7 +1,7 @@
 #!/bin/bash
 # Written by Muhamad Ammar
 # KeepRunning Project
-# Bugs Are Welcome to report
+# Bug reports welcome 
 # email = muhd.ammar92@gmail.com
 
 
