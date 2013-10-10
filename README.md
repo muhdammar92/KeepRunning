@@ -1,3 +1,8 @@
+# Written by Muhamad Ammar
+# KeepRunning Project
+# Bug reports welcome 
+# email = muhd.ammar92@gmail.com
+
 KeepRunning
 ===========
 
@@ -17,8 +22,12 @@ Usage
 - you can use cron 
   - crontab -e 
   - @reboot /path/to/script
-  - @reboot /home/keep-running.sh
+  - eg. @reboot /home/keep-running.sh
 
+
+Addon
+-logging system 
+-location of log file /var/log/keep-running.log
 
 
 
