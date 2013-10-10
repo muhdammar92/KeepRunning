@@ -1,9 +1,15 @@
 #!/bin/bash
 
+counter = 0
+
 echo "---------------------------"
 echo "Check all important process"
 echo "---------------------------"
+
+
+while [ $counter eq 0 ]; do
 # Check if honeymap is running
+
 if ps aux | grep "[s]erver" > /dev/null
 then
   echo "Honeymap is Running in background mode"
@@ -17,10 +23,12 @@ if ps aux | grep "[g]eoloc.py" > /dev/null
 then
   echo "Geoloc.py is Running in background mode"
 else
+    echo "Geoloc is not running at "
+    
     python  /opt/hpfeeds/examples/geoloc/geoloc.py > /dev/null 2>&1 &
 fi
 
-
+done
 
 
 
