@@ -1,7 +1,8 @@
-# Written by Muhamad Ammar
-# KeepRunning Project
-# Bug reports welcome 
-# email = muhd.ammar92@gmail.com
+-Written by Muhamad Ammar
+-KeepRunning Project
+-Bug reports welcome 
+-email = muhd.ammar92@gmail.com
+
 
 KeepRunning
 ===========
