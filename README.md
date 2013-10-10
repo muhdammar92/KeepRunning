@@ -16,7 +16,8 @@ Usage
 - check where is the location of your script
 - you can use cron 
   - crontab -e 
-  - */5 * * * * /home/check-process.sh "run this script in every 5 minutes"
+  - @reboot /path/to/script
+  - @reboot /home/keep-running.sh
 
 
 
